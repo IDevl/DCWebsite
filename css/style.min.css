@@ -2,7 +2,6 @@
 .color-primary {
     color: black;
 }
-
 .color-secondary1 {
     color:#999999;
 }
@@ -15,19 +14,15 @@
 .color-secondary4 {
     color: #968A8A;
 }
-
 .color-tertiary {
     color: #FFAEAE;
 }
-
 .background-primary {
     background-color: white;
 }
-
 .background-secondary {
     background-color: #D8D8D8;
 }
-
 .background-tertiary {
     background-color: #FFAEAE;
 }
@@ -47,7 +42,6 @@ body {
 #header {
     height: 100px;
 }
-
 .nav-item {
     font-size: 1em;
     font-weight: 500;
@@ -56,24 +50,25 @@ body {
     cursor: pointer;
     transition: all 100ms linear;
 }
-
 .nav-item-active {
     font-weight: 700;
 }
 
+/* Nav Mobile*/
 .nav-item-active-mobile {
     font-weight: 700;
 }
 
+/* Navbar Toggle */
 .navbar-toggler {
     transform: scale(1);
     transition: 400ms;
 }
-
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     transform: scaleY(0.1);
 }
 
+/* Navbar Content */
 #mobileNavContent {
     display: block;
     visibility: visible;
@@ -103,7 +98,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .collapsing {
     transition: 100ms !important;
 }
-
 .collapse:not(.show) {
     visibility: hidden !important;
     background: rgba(0, 0, 0, 0) !important;
