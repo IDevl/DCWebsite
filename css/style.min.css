@@ -1,0 +1,145 @@
+/*COLORS*/
+.color-primary {
+    color: black;
+}
+
+.color-secondary1 {
+    color:#999999;
+}
+.color-secondary2 {
+    color:#6D6D6D;
+}
+.color-secondary3 {
+    color: #7E7C7C;
+}
+.color-secondary4 {
+    color: #968A8A;
+}
+
+.color-tertiary {
+    color: #FFAEAE;
+}
+
+.background-primary {
+    background-color: white;
+}
+
+.background-secondary {
+    background-color: #D8D8D8;
+}
+
+.background-tertiary {
+    background-color: #FFAEAE;
+}
+
+/* ELEMENTS */
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background: rgb(255, 255, 255);
+}
+
+.hero {
+    scroll-margin-top: 100px;
+}
+
+/* HEADER */
+#header {
+    height: 100px;
+}
+
+.nav-item {
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.375em;
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+
+.nav-item-active {
+    font-weight: 700;
+}
+
+.nav-item-active-mobile {
+    font-weight: 700;
+}
+
+#mobileNavContent {
+    display: block;
+    visibility: visible;
+    background: rgba(0,0,0,0.75);
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
+}
+#mobileNavContent > ul {
+    width: 100%;
+    max-width: 15em;
+    background:white;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    box-shadow: 0em 0em 2em 0em rgb(0 0 0 / 25%);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
+    transform: translate3d(0, 0, 0)
+
+}
+.collapsing {
+    transition: 100ms !important;
+}
+.collapse:not(.show) {
+    visibility: hidden !important;
+    background: rgba(0, 0, 0, 0) !important;
+}
+.collapse:not(.show) > ul {
+    transform: translate3d(115%, 0, 0) !important;
+}
+
+
+
+
+
+
+
+/* Particle JS */
+/* #particles-js { 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+} */
+
+
+/* Hide Element on Mobile or PC */
+@media (min-width: 992px) {
+    .only-mobile {
+        display: none !important;
+    }
+
+    .only-desktop {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .only-mobile {
+        display: block !important;
+    }
+
+    .only-desktop {
+        display: none !important;
+    }
+}

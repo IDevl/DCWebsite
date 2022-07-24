@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jefferson DC</title>
+    <meta name="description" content="Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon.png" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="header" class="container d-flex align-items-center justify-content-end fixed-top background-primary">
+        <!-- Nav Desktop -->
+        <nav class="d-flex row h-100 d-flex align-items-center only-desktop">
+            <ul class="col d-flex justify-content-end list-unstyled m-0">
+                <li class="mx-4">
+                    <a id="homeNav" class="nav-item" onclick="Home()">HOME</a>
+                </li>
+                <li class="mx-4">
+                    <a id="aboutNav" class="nav-item" onclick="About()">ABOUT</a>
+                </li>
+                <li class="mx-4">
+                    <a id="projectsNav" class="nav-item" onclick="Projects()">PROJECTS</a>
+                </li>
+                <li class="mx-4">
+                    <a id="contactNav" class="nav-item" onclick="Contact()">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Nav Toggle Mobile -->
+        <a class="navbar-toggler white only-mobile" data-toggle="collapse" data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu" style="font-weight: 800; font-size: 1.4em;"></span>
+        </a>
+
+        <!-- Nav Mobile Modal -->
+        <div class="collapse fixed-top" id="mobileNavContent" data-toggle="collapse" data-target="#mobileNavContent">
+            <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
+                <li class="my-3">
+                    <a id="homeNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent" onclick="Home()">HOME</a>
+                </li>
+                <li class="my-3">
+                    <a id="aboutNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent" onclick="About()">ABOUT</a>
+                </li>
+                <li class="my-3">
+                    <a id="projectsNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent" onclick="Projects()">PROJECTS</a>
+                </li>
+                <li class="my-3">
+                    <a id="contactNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent" onclick="Contact()">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- HOME SECTION -->
+    <div id="home" class="container hero" style="height: 100vh;">
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about" class="container hero background-secondary1" style="height: 100vh;">
+
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects" class="container hero background-tertiary" style="height: 100vh;">
+
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="container hero background-secondary1" style="height: 100vh;">
+
+    </div>
+
+
+
+
+    <!-- MAIN FOOTER -->
+    <footer id="footer" class="background-tertiary" style="height: 100vh;">
+        <!-- FOOTER -->
+        <div id="mainFooter">
+
+        </div>
+
+        <!-- COPYRIGHT SECTION -->
+        <div id="copyright">
+
+        </div>
+    </footer>
+
+    <!-- PARTICLE JS -->
+    <div id="particles-js"></div>
+
+    <!-- External JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="vendor/bootstrap/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/app.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 700, once: true, disable: 'mobile' });</script>
+
+    <!-- Particle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</body>
+
+</html>
