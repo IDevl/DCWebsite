@@ -65,6 +65,15 @@ body {
     font-weight: 700;
 }
 
+.navbar-toggler {
+    transform: scale(1);
+    transition: 400ms;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    transform: scaleY(0.1);
+}
+
 #mobileNavContent {
     display: block;
     visibility: visible;
@@ -94,6 +103,7 @@ body {
 .collapsing {
     transition: 100ms !important;
 }
+
 .collapse:not(.show) {
     visibility: hidden !important;
     background: rgba(0, 0, 0, 0) !important;
