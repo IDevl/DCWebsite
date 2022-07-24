@@ -111,6 +111,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .collapse:not(.show) > ul {
     transform: translate3d(115%, 0, 0) !important;
 }
+.collapse:not(.show) body {
+    overflow: hidden;
+}
 
 
 
