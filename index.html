@@ -59,15 +59,16 @@
             </nav>
 
             <!-- Nav Toggle Mobile -->
-            <a class="navbar-toggler white only-mobile" id="navbarToggler" data-toggle="collapse" data-target="#mobileNavContent"
-                aria-controls="mobileNavContent" aria-expanded="false" aria-label="Toggle navigation"
-                onclick="BodyScrollOff()">
+            <a class="navbar-toggler white only-mobile" id="navbarToggler" data-toggle="collapse"
+                data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false"
+                aria-label="Toggle navigation" onclick="BodyScrollOff()">
                 <span class="lnr lnr-menu" style="font-weight: 800; font-size: 1.4em;"></span>
             </a>
 
             <!-- Nav Mobile Modal -->
-            <div class="collapse fixed-top" id="mobileNavContent" data-toggle="collapse" data-target="#mobileNavContent"
-                onclick="BodyScrollOn()">
+            <nav class="collapse fixed-top" id="mobileNavContent">
+                <span id="mobileNavContentBackDrop" data-toggle="collapse" data-target="#mobileNavContent"
+                    onclick="BodyScrollOn()"></span>
                 <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
                     <li class="my-3">
                         <a id="homeNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
@@ -86,7 +87,7 @@
                             onclick="Contact()">CONTACT</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div>
 
