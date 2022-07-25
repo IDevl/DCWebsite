@@ -1,12 +1,12 @@
 :root {
-  --white: white; 
-  --black: black;
-  --grey1: #6D6D6D;
-  --grey2: #7E7C7C;
-  --grey3: #968A8A;
-  --grey4: #999999;
-  --grey5: #D8D8D8;
-  --pink1: #FFAEAE;
+    --white: white;
+    --black: black;
+    --grey1: #6D6D6D;
+    --grey2: #7E7C7C;
+    --grey3: #968A8A;
+    --grey4: #999999;
+    --grey5: #D8D8D8;
+    --pink1: #FFAEAE;
 }
 
 /*GLOBAL ELEMENTS*/
@@ -15,18 +15,23 @@ body {
     font-weight: 400;
     background: var(--white);
 }
+
 .hero {
     scroll-margin-top: 100px;
 }
+
 #header {
     background: var(--white);
 }
+
 #about {
     background: var(--grey1);
 }
+
 #projects {
     background: var(--grey3);
 }
+
 #contact {
     background: var(--grey5);
 }
@@ -42,21 +47,22 @@ body {
     color: black;
     letter-spacing: 0.375em;
     cursor: pointer;
-} 
+}
+
 .nav-item-active {
     font-weight: 700;
 }
-
-
 
 .navbar-toggler {
     transform: scale(1);
     transition: 400ms;
 }
+
 .lnr-menu {
-    font-weight: 800; 
+    font-weight: 800;
     font-size: 1.4rem;
 }
+
 .navbar-toggler:hover {
     transform: scaleY(0.1);
 }
@@ -64,13 +70,16 @@ body {
 .collapsing {
     transition: 100ms !important;
 }
+
 .collapse:not(.show) {
     visibility: hidden !important;
     background: rgba(0, 0, 0, 0) !important;
 }
-.collapse:not(.show) > ul {
+
+.collapse:not(.show)>ul {
     transform: translate3d(115%, 0, 0) !important;
 }
+
 .collapse:not(.show) body {
     overflow: hidden;
 }
@@ -81,33 +90,31 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.75);
+    background: rgba(0, 0, 0, 0.75);
 }
+
 #mobileNavContent {
     display: block;
-    visibility: visible;
     width: 100%;
     min-height: 100%;
+    visibility: visible;
     overflow: hidden;
+    transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
     transition-duration: 500ms;
-    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
 }
-#mobileNavContent > ul {
+
+#mobileNavContent>ul {
+    position: absolute;
+    right: 0;
     width: 100%;
     max-width: 15em;
-    background:white;
     height: 100%;
-    right: 0;
-    position: absolute;
+    background: white;
     box-shadow: 0em 0em 2em 0em rgb(0 0 0 / 25%);
+    transform: translate3d(0, 0, 0);
+    transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
     transition-duration: 500ms;
-    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
-    transform: translate3d(0, 0, 0)
 }
-
-
-
-
 
 
 
@@ -122,6 +129,7 @@ body {
         display: flex !important;
     }
 }
+
 @media (max-width: 992px) {
     .only-mobile {
         display: block !important;
