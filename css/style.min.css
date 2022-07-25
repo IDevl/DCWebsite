@@ -111,19 +111,6 @@ body {
 
 
 
-/* Particle JS */
-/* #particles-js { 
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url('');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    z-index: -1;
-} */
 
 
 /* Hide Element on Mobile or PC */
@@ -145,3 +132,17 @@ body {
         display: none !important;
     }
 }
+
+/* Particle JS */
+/* #particles-js { 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+} */
