@@ -1,74 +1,80 @@
-/*COLORS*/
-.color-primary {
-    color: black;
-}
-.color-secondary1 {
-    color:#999999;
-}
-.color-secondary2 {
-    color:#6D6D6D;
-}
-.color-secondary3 {
-    color: #7E7C7C;
-}
-.color-secondary4 {
-    color: #968A8A;
-}
-.color-tertiary {
-    color: #FFAEAE;
-}
-.background-primary {
-    background-color: white;
-}
-.background-secondary {
-    background-color: #D8D8D8;
-}
-.background-tertiary {
-    background-color: #FFAEAE;
+:root {
+  --white: white; 
+  --black: black;
+  --grey1: #6D6D6D;
+  --grey2: #7E7C7C;
+  --grey3: #968A8A;
+  --grey4: #999999;
+  --grey5: #D8D8D8;
+  --pink1: #FFAEAE;
 }
 
-/* ELEMENTS */
+/*GLOBAL ELEMENTS*/
 body {
     font-family: 'Poppins';
     font-weight: 400;
-    background: rgb(255, 255, 255);
+    background: var(--white);
 }
-
 .hero {
     scroll-margin-top: 100px;
 }
+#header {
+    background: var(--white);
+}
+#about {
+    background: var(--grey1);
+}
+#projects {
+    background: var(--grey3);
+}
+#contact {
+    background: var(--grey5);
+}
 
-/* HEADER */
+/*HEADER*/
 #header {
     height: 100px;
 }
+
 .nav-item {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
     color: black;
     letter-spacing: 0.375em;
     cursor: pointer;
-    transition: all 100ms linear;
-}
+} 
 .nav-item-active {
     font-weight: 700;
 }
 
-/* Nav Mobile*/
-.nav-item-active-mobile {
-    font-weight: 700;
-}
 
-/* Navbar Toggle */
+
 .navbar-toggler {
     transform: scale(1);
     transition: 400ms;
 }
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+.lnr-menu {
+    font-weight: 800; 
+    font-size: 1.4rem;
+}
+.navbar-toggler:hover {
     transform: scaleY(0.1);
 }
 
-/* Navbar Content */
+.collapsing {
+    transition: 100ms !important;
+}
+.collapse:not(.show) {
+    visibility: hidden !important;
+    background: rgba(0, 0, 0, 0) !important;
+}
+.collapse:not(.show) > ul {
+    transform: translate3d(115%, 0, 0) !important;
+}
+.collapse:not(.show) body {
+    overflow: hidden;
+}
+
 #mobileNavContentBackDrop {
     position: absolute;
     top: 0;
@@ -99,20 +105,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     transform: translate3d(0, 0, 0)
 
 }
-.collapsing {
-    transition: 100ms !important;
-}
-.collapse:not(.show) {
-    visibility: hidden !important;
-    background: rgba(0, 0, 0, 0) !important;
-}
-.collapse:not(.show) > ul {
-    transform: translate3d(115%, 0, 0) !important;
-}
-.collapse:not(.show) body {
-    overflow: hidden;
-}
-
 
 
 
@@ -144,7 +136,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
         display: flex !important;
     }
 }
-
 @media (max-width: 992px) {
     .only-mobile {
         display: block !important;
