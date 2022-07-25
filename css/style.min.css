@@ -103,7 +103,6 @@ body {
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
     transform: translate3d(0, 0, 0)
-
 }
 
 
