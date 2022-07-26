@@ -5,38 +5,68 @@
     --grey2: #7E7C7C;
     --grey3: #968A8A;
     --grey4: #999999;
-    --grey5: #D8D8D8;
-    --pink1: #FFAEAE;
+    --grey5: #d8d8d846;
+    --pink1: #e1aeff;
+    --pink2: #f7e9ff;
 }
 
 /*GLOBAL ELEMENTS*/
 body {
     font-family: 'Poppins';
     font-weight: 400;
-    background: var(--white);
 }
 
 .hero {
     scroll-margin-top: 100px;
 }
 
-#header {
-    background: var(--white);
+h1 {
+    color: var(--grey4);
+    font-family: 'Roboto';
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.4;
 }
 
-#about {
-    background: var(--grey1);
+@media (max-width: 525px) {
+    h1 {
+        font-size: 15vw;
+    }
 }
 
-#projects {
-    background: var(--grey3);
+h4 {
+    color: var(--grey1);
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-#contact {
-    background: var(--grey5);
+@media (max-width: 425px) {
+    h4 {
+        font-size: 1rem;
+    }
 }
 
-/*HEADER*/
+h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin: 0;
+    margin-left: 6px;
+}
+
+p {
+    color: var(--grey1);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+
+/* HEADER */
 #header {
     height: 100px;
 }
@@ -54,7 +84,7 @@ body {
 }
 
 .navbar-toggler {
-    transform: scale(1);
+    transform: scaleY(1);
     transition: 400ms;
 }
 
@@ -116,8 +146,50 @@ body {
     transition-duration: 500ms;
 }
 
+/*Home*/
+#home {
+    position: relative;
+}
 
-/* Hide Element on Mobile or PC */
+#home-backdrop {
+    background: var(--grey5);
+    position: absolute;
+    right: 0;
+    left: 25vmax;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.download-cv {
+    background-color: var(--pink2);
+    border: 1px solid var(--pink1);
+    padding: 2vmax;
+    transition: 500ms;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background-color: var(--pink1);
+}
+
+.socmed-button {
+    border: 1px solid var(--grey1);
+    transition: 500ms;
+    padding: 0.7em 1.5vmin;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.socmed-button:hover {
+    background-color: var(--grey1);
+    color: var(--white);
+}
+
+
+/*Hide Element on Mobile or Desktop*/
 @media (min-width: 992px) {
     .only-mobile {
         display: none !important;
