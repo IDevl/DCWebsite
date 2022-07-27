@@ -83,7 +83,7 @@ p {
 }
 
 .navbar-toggler {
-    padding: 0.25rem 0.55rem;
+    padding: 0.25rem 0.5rem;
     background: white;
     box-shadow: 0 2px 10px var(--grey3);
     transform: scaleY(1);
