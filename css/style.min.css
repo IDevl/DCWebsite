@@ -152,6 +152,7 @@ p {
 /*Home*/
 #home {
     position: relative;
+    overflow-x: hidden;
 }
 
 #home-backdrop {
