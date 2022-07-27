@@ -177,9 +177,11 @@ p {
 
 .download-cv:hover {
     background-color: var(--pink1);
+    text-decoration: none;
 }
 
 .socmed-button {
+    color: var(--grey1);
     border: 1px solid var(--grey1);
     transition: 500ms;
     padding: 0.7em 1.5vmin;
@@ -190,6 +192,7 @@ p {
 .socmed-button:hover {
     background-color: var(--grey1);
     color: var(--white);
+    text-decoration: none;
 }
 
 
