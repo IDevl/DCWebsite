@@ -77,6 +77,9 @@ p {
 
 
 /* HEADER */
+#header-white {
+    background-color: var(--white);
+}
 @media (max-width: 1199px) {
     #header-white {
         background-color: transparent !important;
