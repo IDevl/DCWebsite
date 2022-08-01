@@ -38,64 +38,62 @@
 
 <body>
     <!-- HEADER -->
-    <div class="fixed-top" id="header-white">
-        <div id="header" class="container d-flex align-items-center justify-content-end">
+    <div id="header" class="container d-flex align-items-center justify-content-end">
 
-            <!-- Nav Desktop -->
-            <nav class="d-flex row h-100 d-flex align-items-center only-desktop">
-                <ul class="col d-flex justify-content-end list-unstyled m-0">
-                    <li class="mx-4">
-                        <a id="homeNav" class="nav-item" onclick="Home()">HOME</a>
-                    </li>
-                    <li class="mx-4">
-                        <a id="aboutNav" class="nav-item" onclick="About()">ABOUT</a>
-                    </li>
-                    <li class="mx-4">
-                        <a id="projectsNav" class="nav-item" onclick="Projects()">PROJECTS</a>
-                    </li>
-                    <li class="ml-4">
-                        <a id="contactNav" class="nav-item" onclick="Contact()">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+        <!-- Nav Desktop -->
+        <nav class="d-flex row h-100 d-flex align-items-center only-desktop" style="z-index: 1;">
+            <ul class="col d-flex justify-content-end list-unstyled m-0">
+                <li class="mx-4">
+                    <a id="homeNav" class="nav-item" href="/">HOME</a>
+                </li>
+                <li class="mx-4">
+                    <a id="aboutNav" class="nav-item" onclick="About()">ABOUT</a>
+                </li>
+                <li class="mx-4">
+                    <a id="projectsNav" class="nav-item" onclick="Projects()">PROJECTS</a>
+                </li>
+                <li class="ml-4">
+                    <a id="contactNav" class="nav-item" onclick="Contact()">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
 
-            <!-- Nav Mobile -->
-            <a class="navbar-toggler white only-mobile" id="navbarToggler" data-toggle="collapse"
-                data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false"
-                aria-label="Toggle navigation" onclick="BodyScrollOff()">
-                <span class="lnr lnr-menu"></span>
-            </a>
+        <!-- Nav Mobile -->
+        <a class="navbar-toggler white only-mobile" id="navbarToggler" style="z-index: 1;" data-toggle="collapse"
+            data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false"
+            aria-label="Toggle navigation" onclick="BodyScrollOff()">
+            <span class="lnr lnr-menu"></span>
+        </a>
 
-            <nav class="collapse fixed-top" id="mobileNavContent">
-                <span id="mobileNavContentBackDrop" data-toggle="collapse" data-target="#mobileNavContent"
-                    onclick="BodyScrollOn()"></span>
-                <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
-                    <li class="my-3">
-                        <a id="homeNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                            onclick="Home()"> HOME </a>
-                    </li>
-                    <li class="my-3">
-                        <a id="aboutNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                            onclick="About()"> ABOUT </a>
-                    </li>
-                    <li class="my-3">
-                        <a id="projectsNavMobile" class="nav-item" data-toggle="collapse"
-                            data-target="#mobileNavContent" onclick="Projects()"> PROJECTS </a>
-                    </li>
-                    <li class="my-3">
-                        <a id="contactNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                            onclick="Contact()"> CONTACT </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="collapse fixed-top" id="mobileNavContent">
+            <span id="mobileNavContentBackDrop" data-toggle="collapse" data-target="#mobileNavContent"
+                onclick="BodyScrollOn()"></span>
+            <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
+                <li class="my-3">
+                    <a id="homeNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                        onclick="Home()"> HOME </a>
+                </li>
+                <li class="my-3">
+                    <a id="aboutNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                        onclick="About()"> ABOUT </a>
+                </li>
+                <li class="my-3">
+                    <a id="projectsNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                        onclick="Projects()"> PROJECTS </a>
+                </li>
+                <li class="my-3">
+                    <a id="contactNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                        onclick="Contact()"> CONTACT </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <!-- HOME SECTION -->
     <div id="home" class="mb-5">
         <div id="home-backdrop" class="only-desktop"></div>
         <div class="container hero d-flex flex-column align-items-start justify-content-center">
-            <div class="d-flex row mb-5" style="margin-top: 12vmax;">
+            <div class="d-flex row mb-5" style="margin-top: 20vmin;">
                 <div class="col-xl-6 d-flex flex-column py-2">
                     <div>
                         <h1> Hello <br> I’m Jefferson </h1>
@@ -232,6 +230,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <a id="scroll-up" onclick="BackToTop()">
+        <span class="lnr lnr-chevron-up"></span>
+    </a>
 
     <!-- PARTICLE JS -->
     <div id="particles-js"></div>
