@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-    scroll-margin-top: 2em;
+    scroll-margin-top: 0em;
 }
 
 h1 {
@@ -36,6 +36,20 @@ h1 {
 @media (max-width: 525px) {
     h1 {
         font-size: 15vw;
+    }
+}
+
+h2 {
+    color: var(--grey4);
+    font-family: 'Roboto';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+@media (max-width: 525px) {
+    h2 {
+        font-size: 9vw;
     }
 }
 
@@ -232,6 +246,14 @@ p {
     letter-spacing: 0.25px;
     text-align: center;
     border-radius: 1.5em;
+}
+
+/*PROJECTS*/
+#project > div > img {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: top;
 }
 
 /*CONTACT*/
