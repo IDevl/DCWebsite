@@ -251,7 +251,6 @@ p {
 /*PROJECTS*/
 #project > div > img {
     max-height: 300px;
-    min-height: 300px;
     object-fit: cover;
     object-position: top;
 }
