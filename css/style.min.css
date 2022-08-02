@@ -10,6 +10,7 @@
     --grey7: #2E2E2E;
     --pink1: #f4c9a5;
     --pink2: #fcecdd;
+    --pink3: #ffdebf;
 }
 
 /*GLOBAL ELEMENTS*/
@@ -237,6 +238,26 @@ p {
     letter-spacing: 0.38px;
 }
 
+.progress {
+    background-color: var(--grey6);
+    height: auto;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: var(--pink3);
+    padding: 0.8em 1.5em;
+}
+
+#progressTitle {
+    line-height: 1;
+    color: var(--grey7);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+/*PROJECTS*/
 .skill {
     color: var(--grey3);
     background-color: var(--grey6);
@@ -248,7 +269,6 @@ p {
     border-radius: 1.5em;
 }
 
-/*PROJECTS*/
 #projectsSlider {
     gap: 8em;
 }
