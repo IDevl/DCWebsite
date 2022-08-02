@@ -44,7 +44,7 @@ h2 {
     font-family: 'Roboto';
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 @media (max-width: 525px) {
@@ -249,10 +249,32 @@ p {
 }
 
 /*PROJECTS*/
+#projectsSlider {
+    gap: 8em;
+}
+
+#project {
+    column-gap: 4em; 
+    row-gap: 2em;
+}
+
 #project > div > img {
+    height: 100%;
     max-height: 300px;
-    object-fit: cover;
+    min-height: 300px;
+    object-fit: fill;
     object-position: top;
+}
+
+@media (max-width: 1199px) {
+    #projectsSlider {
+        gap: 6vmax;
+    }
+    #project > div > img {
+        height: auto;
+        min-height: 0px;
+        max-height: 40vmax;
+    }
 }
 
 /*CONTACT*/
@@ -322,8 +344,8 @@ p {
     transition: 300ms;
 }
 
-#scroll-up:hover .lnr {
-    color: var(--grey1);
+#scroll-up:hover {
+    background-color: var(--pink2);
 }
 
 
