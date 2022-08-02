@@ -272,7 +272,8 @@ p {
 
 @media (max-width: 480px) {
     .contact-card {
-        margin: auto;
+        padding: 1em;
+        max-width: 270px;
     }
 }
 
