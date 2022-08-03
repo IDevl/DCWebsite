@@ -22,8 +22,10 @@ body {
     scroll-behavior: smooth;
 }
 
-.hero {
-    scroll-margin-top: 0em;
+@media (max-width: 525px) {
+    .hero {
+        scroll-margin-top: 2em;
+    }
 }
 
 h1 {
