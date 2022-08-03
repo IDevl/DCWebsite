@@ -204,20 +204,19 @@ p {
     white-space: nowrap; 
     margin: 0;
     max-width: fit-content;
-    padding-right: 2.5vmin;
+    padding-right: 4%;
     line-height: 0.9;
-    border-right: 0.75vmax solid var(--pink1); 
     animation: typing 1.5s 1s steps(20, end), blink-caret 1s step-end infinite;
 }
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 100%;}
+    to { width: 100%; }
 }
 
 @keyframes blink-caret {
     from, to { border-right: 0; }
-    50% {  border-right: 0.75vmax solid var(--pink1); }
+    50% {  border-right: 7px solid var(--pink1); }
 }
   
 .download-cv {
