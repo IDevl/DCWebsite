@@ -295,7 +295,7 @@ p {
 
 #project {
     column-gap: 4em; 
-    row-gap: 2em;
+    row-gap: 1.5em;
 }
 
 #project > div > img {
