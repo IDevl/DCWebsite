@@ -284,6 +284,7 @@ p {
     min-height: 300px;
     object-fit: fill;
     object-position: top;
+    box-shadow: 0 4px 10px var(--grey2);
 }
 
 #projectLinkBackdrop {
@@ -341,6 +342,7 @@ p {
     padding: 2em;
     width: 100%;
     max-width: 400px;
+    box-shadow: 0 4px 10px var(--grey2);
 }
 
 @media (max-width: 991px) {
@@ -383,7 +385,8 @@ p {
 }
 
 #footer p {
-    color: #6d6d6dcc
+    color: #6d6d6dcc;
+    font-size: 0.85rem;
 }
 
 /*SCROLL UP*/
