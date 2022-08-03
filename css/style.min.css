@@ -36,7 +36,7 @@ h1 {
 
 @media (max-width: 525px) {
     h1 {
-        font-size: 15vw;
+        font-size: 14vw;
     }
 }
 
@@ -199,6 +199,27 @@ p {
     z-index: -2;
 }
 
+#name {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0;
+    max-width: fit-content;
+    padding-right: 2.5vmin;
+    line-height: 0.9;
+    border-right: 0.75vmax solid var(--pink1); 
+    animation: typing 1.5s 1s steps(20, end), blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%;}
+}
+
+@keyframes blink-caret {
+    from, to { border-right: 0; }
+    50% {  border-right: 0.75vmax solid var(--pink1); }
+}
+  
 .download-cv {
     color: var(--grey1);
     background-color: var(--pink2);
