@@ -380,7 +380,7 @@ p {
     color: var(--white);
 }
 
-.lnr {
+#projects .owl-nav > div > .lnr {
     color: var(--grey2);
     font-size: 0.9rem;
     font-weight: 900 !important;
