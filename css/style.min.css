@@ -202,8 +202,8 @@ p {
 }
 
 #name {
-    overflow: hidden; 
-    white-space: nowrap; 
+    overflow: hidden;
+    white-space: nowrap;
     margin: 0;
     max-width: fit-content;
     padding-right: 4%;
@@ -212,15 +212,27 @@ p {
 }
 
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes blink-caret {
-    from, to { border-right: 0; }
-    50% {  border-right: 7px solid var(--pink1); }
+
+    from,
+    to {
+        border-right: 0;
+    }
+
+    50% {
+        border-right: 7px solid var(--pink1);
+    }
 }
-  
+
 .download-cv {
     color: var(--grey1);
     background-color: var(--pink2);
@@ -279,7 +291,6 @@ p {
     font-size: 0.8rem;
 }
 
-
 /*PROJECTS*/
 .skill {
     color: var(--grey3);
@@ -298,12 +309,12 @@ p {
     row-gap: 0.5em;
 }
 
-#project > div {
+#project>div {
     padding: 12px !important;
     background-color: var(--white);
 }
 
-#project > div > img {
+#project>div>img {
     height: 100%;
     max-height: 300px;
     min-height: 300px;
@@ -360,7 +371,7 @@ p {
     gap: 0.5em;
 }
 
-#projects .owl-nav > div {
+#projects .owl-nav>div {
     background-color: var(--white);
     border: 0.5px solid var(--grey2);
     width: 35px;
@@ -372,16 +383,16 @@ p {
     transition: 400ms;
 }
 
-#projects .owl-nav > div:hover {
+#projects .owl-nav>div:hover {
     background-color: var(--grey2);
     border: 0.5px solid var(--white);
 }
 
-#projects .owl-nav > div:hover .lnr {
+#projects .owl-nav>div:hover .lnr {
     color: var(--white);
 }
 
-#projects .owl-nav > div > .lnr {
+#projects .owl-nav>div>.lnr {
     color: var(--grey2);
     font-size: 0.9rem;
     font-weight: 900 !important;
@@ -392,11 +403,13 @@ p {
     #projectsSlider {
         gap: 6vmax;
     }
-    #project > div > img {
+
+    #project>div>img {
         height: auto;
         min-height: 0px;
         max-height: 40vmax;
     }
+
     #projects .owl-nav {
         width: 100%;
     }
