@@ -20,12 +20,12 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
@@ -234,7 +234,7 @@
         <div class="d-flex flex-column mb-3 mt-md-5" data-aos="fade-in" data-aos-delay="200">
             <h1> Projects </h1>
         </div>
-        <div id="projectsSlider" class="d-flex flex-column mt-lg-5 mt-3">
+        <div id="projectsSlider" class="owl-carousel projects-carousel d-flex flex-column mt-lg-5 mt-3">
 
             <!-- GOSU KID -->
             <div id="project" class="d-flex flex-row flex-wrap align-items-center">
@@ -248,8 +248,7 @@
                     <h2 class="text-left">Gosu Kid</h2>
                     <p class="text-left mt-2">Gosu Kid is an educational android mobile game application that will help
                         the Grade
-                        Three students to improve their skills and motivation in learning. Using mobile games in
-                        education has the potential to make learning more active and fun.</p>
+                        Three students to improve their skills and motivation in learning.</p>
                     <div class="col-lg d-flex flex-row flex-wrap justify-content-start align-items-start mt-3 p-0"
                         style="gap: 0.75em;">
                         <div class="skill d-flex align-items-center"> Unity 2D </div>
@@ -261,22 +260,21 @@
             </div>
 
             <!-- EXCEED AGENCY -->
-            <div id="project" class="d-flex flex-row-reverse flex-wrap align-items-center">
-                <div class="col-lg d-flex align-items-center justify-content-center px-0" data-aos="fade-in"
-                    data-aos-delay="400" data-aos-duration="2000">
+            <div id="project" class="d-flex flex-row flex-wrap align-items-center">
+                <div class="col-lg d-flex align-items-center justify-content-center px-0">
                     <img class="w-100" src="img/projects/exceed.png" />
                     <div id="projectLinkBackdrop"> <a href="https://exceed.agency" target="_blank" id="projectLink"> See
                             More </a> </div>
                 </div>
-                <div class="col-lg px-0" data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000">
-                    <h2 class="text-left text-lg-right">Exceed Digital Solutions</h2>
-                    <p class="text-left text-lg-right mt-2">Exceed Digital Solutions provides web development, digital
+                <div class="col-lg px-0">
+                    <h2 class="text-left">Exceed Digital Solutions</h2>
+                    <p class="text-left mt-2">Exceed Digital Solutions provides web development, digital
                         marketing, and multimedia services that aim to boost your business.</p>
-                    <div class="col-lg d-flex flex-row flex-wrap justify-content-start justify-content-lg-end align-items-start mt-3 p-0"
+                    <div class="col-lg d-flex flex-row flex-wrap justify-content-start align-items-start mt-3 p-0"
                         style="gap: 0.75em;">
                         <div class="skill d-flex align-items-center"> Wordpress </div>
                         <div class="skill d-flex align-items-center"> Themeco </div>
-                        <div class="skill d-flex align-items-center"> Inmotion Hosting </div>
+                        <div class="skill d-flex align-items-center"> Inmotion </div>
                         <div class="skill d-flex align-items-center"> Figma </div>
                     </div>
                 </div>
@@ -284,13 +282,12 @@
 
             <!-- JG COFFEE AND BEAN -->
             <div id="project" class="d-flex flex-row flex-wrap align-items-center">
-                <div class="col-lg d-flex align-items-center justify-content-center px-0" data-aos="fade-in"
-                    data-aos-delay="400" data-aos-duration="2000">
+                <div class="col-lg d-flex align-items-center justify-content-center px-0">
                     <img class="w-100" src="img/projects/jgcoffeeandbean.png" />
                     <div id="projectLinkBackdrop"> <a href="https://jgcafe.netlify.app" target="_blank"
                             id="projectLink"> See More </a> </div>
                 </div>
-                <div class="col-lg px-0" data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000">
+                <div class="col-lg px-0">
                     <h2 class="text-left">JG Coffee and Bean</h2>
                     <p class="text-left mt-2">A start-up cafe bar managed by only two students. Located near the city,
                         escape the urban rush by visiting our coffee shop and feel the whist comfort brought by our
@@ -306,22 +303,21 @@
                 </div>
             </div>
 
-            <!-- EXCEED AGENCY -->
-            <div id="project" class="d-flex flex-row-reverse flex-wrap align-items-center">
-                <div class="col-lg d-flex align-items-center justify-content-center px-0" data-aos="fade-in"
-                    data-aos-delay="400" data-aos-duration="2000">
+            <!-- FIESTA EXTRAVAGANZA -->
+            <div id="project" class="d-flex flex-row flex-wrap align-items-center">
+                <div class="col-lg d-flex align-items-center justify-content-center px-0">
                     <img class="w-100" src="img/projects/fiestaextravaganza.png" />
                     <div id="projectLinkBackdrop"> <a href="https://fiestaextravaganza.com" target="_blank"
                             id="projectLink"> See
                             More </a> </div>
                 </div>
-                <div class="col-lg px-0" data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000">
-                    <h2 class="text-left text-lg-right">Fiesta Extravaganza</h2>
-                    <p class="text-left text-lg-right mt-2">Fiesta Extravaganza is a celebration of Filipino Heritage
+                <div class="col-lg px-0">
+                    <h2 class="text-left">Fiesta Extravaganza</h2>
+                    <p class="text-left mt-2">Fiesta Extravaganza is a celebration of Filipino Heritage
                         and Culture in Ontario and across Canada that promotes multicultural awareness and appreciation
                         of Philippine heritage.
                     </p>
-                    <div class="col-lg d-flex flex-row flex-wrap justify-content-start justify-content-lg-end align-items-start mt-3 p-0"
+                    <div class="col-lg d-flex flex-row flex-wrap justify-content-start align-items-start mt-3 p-0"
                         style="gap: 0.75em;">
                         <div class="skill d-flex align-items-center"> Wordpress </div>
                         <div class="skill d-flex align-items-center"> Themeco </div>
@@ -392,6 +388,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
     <script src="vendor/bootstrap/popper.min.js"></script>
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
