@@ -299,7 +299,7 @@ p {
 }
 
 #project > div {
-    padding: 10px !important;
+    padding: 12px !important;
     background-color: var(--white);
 }
 
@@ -314,7 +314,7 @@ p {
 
 #projectLinkBackdrop {
     position: absolute;
-    inset: 10px;
+    inset: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
