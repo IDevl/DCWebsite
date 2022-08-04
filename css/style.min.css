@@ -294,11 +294,12 @@ p {
 }
 
 #project {
-    gap: 1.5em;
+    column-gap: 1.5em;
+    row-gap: 0.5em;
 }
 
 #project > div {
-    padding: 1em !important;
+    padding: 10px !important;
     background-color: var(--white);
 }
 
@@ -313,7 +314,7 @@ p {
 
 #projectLinkBackdrop {
     position: absolute;
-    inset: 1em;
+    inset: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
