@@ -38,7 +38,7 @@ h1 {
 
 @media (max-width: 525px) {
     h1 {
-        font-size: 14vw;
+        font-size: 12vw;
     }
 }
 
@@ -47,7 +47,7 @@ h2 {
     font-family: 'Roboto';
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 @media (max-width: 525px) {
@@ -64,6 +64,12 @@ h3 {
     line-height: 1.4;
 }
 
+@media (max-width: 525px) {
+    h3 {
+        font-size: 9vw;
+    }
+}
+
 h4 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -72,7 +78,7 @@ h4 {
     margin: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
     h4 {
         font-size: 1rem;
     }
