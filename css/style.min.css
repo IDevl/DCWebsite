@@ -200,8 +200,8 @@ p {
     background: var(--grey5);
     position: absolute;
     right: 0;
-    left: 30%;
-    bottom: 55px;
+    left: 32%;
+    bottom: 3.5em;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -209,8 +209,8 @@ p {
 
 /* Particle JS */
 #particles-js { 
-    width: 30%;
-    height: calc(100% - 55px);
+    width: 32%;
+    height: calc(100% - 3.5em);
     position: absolute;
     top: 0;
     background-color: rgba(0, 0, 0, 0);
@@ -219,6 +219,15 @@ p {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     z-index: 1;
+}
+
+@media (max-width: 525px) {
+    #home-backdrop {
+        bottom: 2.5em;
+    }
+    #particles-js { 
+        height: calc(100% - 2.5em);
+    }
 }
 
 #name {
@@ -257,7 +266,7 @@ p {
     color: var(--grey1);
     background-color: var(--pink2);
     border: 1px solid var(--pink1);
-    padding: 3vmax 5vmin;
+    padding: 2.5em 3em;
     transition: 500ms;
     border-radius: 2px;
     cursor: pointer;
@@ -267,6 +276,12 @@ p {
     color: var(--black);
     background-color: var(--pink1);
     text-decoration: none;
+}
+
+@media (max-width: 525px) {
+    .download-cv {
+        padding: 2em 1.5em;
+    }
 }
 
 .socmed-button {
