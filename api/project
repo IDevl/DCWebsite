@@ -23,5 +23,18 @@
             "Inmotion",
             "Figma"
         ]
+    },
+    {
+        "image": "img/projects/jgcoffeeandbean.png",
+        "title": "JG Coffee and Bean",
+        "description": "A start-up cafe bar managed by only two students. Located near the city, escape the urban rush by visiting our coffee shop.",
+        "link": "https://jgcafe.netlify.app",
+        "skills": [
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Netlify"
+        ]
     }
 ]
