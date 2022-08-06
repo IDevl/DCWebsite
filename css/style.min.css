@@ -404,7 +404,6 @@ p {
 
 #projects .owl-nav>div:hover {
     background-color: var(--grey2);
-    border: 0.5px solid var(--white);
 }
 
 #projects .owl-nav>div:hover .lnr {
