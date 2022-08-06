@@ -64,7 +64,7 @@
     {
         "image": "img/projects/abbarchitects.png",
         "title": "ABB Architectural Services",
-        "description": "ABB ArchitecturalS is a project management firm started by Ar. Freddy B. Bautista, who is engaged in the practice of Green and Sustainable Design.",
+        "description": "ABB ArchitecturalS is a project management firm that is engaged in the practice of Green and Sustainable Design.",
         "link": "https://abb-architects.com",
         "skills": [
             "Wordpress",
@@ -135,7 +135,7 @@
     {
         "image": "img/projects/mcbndigitalsolutions.png",
         "title": "MCBN Digital Solutions",
-        "description": "MCBN Digital Solutions incorporates the latest techniques and technologies to meet the present business challenges & enhance your brand value.",
+        "description": "MCBN Digital Solutions incorporates the latest technologies to meet business challenges and enhance brand value.",
         "link": "https://mcbndigitalsolutions.com",
         "skills": [
             "Wordpress",
@@ -195,7 +195,7 @@
     {
         "image": "img/projects/jarheadconstruction.png",
         "title": "Jarhead Construction",
-        "description": "Jarhead Construction Inc. is a family-owned and Veteran-operated Roofing Contractor. We provide roofing services to both homeowners and commercial property owners.",
+        "description": "Jarhead Construction Inc. is a Veteran-operated Roofing Contractor that provides roofing services to both homeowners and commercial property owners.",
         "link": "https://jarheadconstruction.com",
         "skills": [
             "Wordpress",
