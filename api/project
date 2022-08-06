@@ -36,5 +36,17 @@
             "Javascript",
             "Netlify"
         ]
+    },
+    {
+        "image": "img/projects/fiestaextravaganza.png",
+        "title": "Fiesta Extravaganza",
+        "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
+        "link": "https://fiestaextravaganza.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
     }
 ]
