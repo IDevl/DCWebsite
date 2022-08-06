@@ -200,7 +200,7 @@ p {
     background: var(--grey5);
     position: absolute;
     right: 0;
-    left: 30vmax;
+    left: 30%;
     bottom: 55px;
     height: 100%;
     width: 100%;
@@ -209,7 +209,7 @@ p {
 
 /* Particle JS */
 #particles-js { 
-    width: 30vmax;
+    width: 30%;
     height: calc(100% - 55px);
     position: absolute;
     top: 0;
@@ -257,7 +257,7 @@ p {
     color: var(--grey1);
     background-color: var(--pink2);
     border: 1px solid var(--pink1);
-    padding: 4.5vmin 5vmin;
+    padding: 3vmax 5vmin;
     transition: 500ms;
     border-radius: 2px;
     cursor: pointer;
