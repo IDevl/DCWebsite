@@ -1,0 +1,15 @@
+[
+    {
+        "image": "/img/projects/gosukid.png",
+        "title": "Gosu Kid",
+        "description": "Gosu Kid is an educational android mobile game application that will help the Grade Three students to improve their skills and motivation in learning.",
+        "link": "https://gosukid.netlify.app",
+        "skills": [
+            "Unity",
+            "C#",
+            "Firebase",
+            "Photoshop",
+            "Leantween"
+        ]
+    }
+]
