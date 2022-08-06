@@ -48,5 +48,160 @@
             "Inmotion",
             "Figma"
         ]
+    },
+    {
+        "image": "img/projects/dormus.png",
+        "title": "Dormus Dormitory",
+        "description": "Located along España Boulevard with very high student foot traffic, these commercial units have prime location, visibility and accesibility.",
+        "link": "https://dormus.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/abbarchitects.png",
+        "title": "ABB Architectural Services",
+        "description": "ABB ArchitecturalS is a project management firm started by Ar. Freddy B. Bautista, who is engaged in the practice of Green and Sustainable Design.",
+        "link": "https://abb-architects.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/integrammarketing.png",
+        "title": "Integral Marketing",
+        "description": "Integral Marketing was founded in 2017 with the core belief that growing a business is easy if you have the right tools for the job.",
+        "link": "https://integralmrktg.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/p3life.png",
+        "title": "The P3 Life™",
+        "description": "The P3 Life™ is a private coaching practice and executive consulting firm that partners with a network of corporations to bring professional development.",
+        "link": "https://thep3life.company",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/nourishflourish.png",
+        "title": "Nourish Flourish",
+        "description": "Nourish-Flourish (NF) is a community for women to learn, ask questions, and feel supported and empowered on their health and wellness journey.",
+        "link": "https://fromnourishtoflourish.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/mcbnradio.png",
+        "title": "MCBN Radio",
+        "description": "Media Concept Broadcasting Network (MCBN) is a global digital media platform and broadcasting company based in Toronto, Canada.",
+        "link": "https://mcbnradio.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/puritanspride.png",
+        "title": "Puritan's Pride",
+        "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
+        "link": "https://puritanspride.ph/",
+        "skills": [
+            "Shopify",
+            "Dawn",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/mcbndigitalsolutions.png",
+        "title": "MCBN Digital Solutions",
+        "description": "MCBN Digital Solutions incorporates the latest techniques and technologies to meet the present business challenges & enhance your brand value.",
+        "link": "https://mcbndigitalsolutions.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/uniplace.png",
+        "title": "UniPlace Dormitory",
+        "description": "An extraordinary dormitory development in Cebu, located at the heart of Southwestern University Campus (SWU-Phinma).",
+        "link": "https://uniplace.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/joaneglass.png",
+        "title": "Joane Glass",
+        "description": "Joane Glass provides quality goods from very supportive suppliers to gain client satisfaction and meet the demands of contractors.",
+        "link": "https://joaneglass.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/deesenailsdriplash.png",
+        "title": "Déesse",
+        "description": "Déesse is a boutique beauty and wellness space in Metro Manila that offers a wide array of men and women specific self-care services.",
+        "link": "https://deessenailsdriplash.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/rafflelover.png",
+        "title": "Raffle Lover",
+        "description": "Raffle Lover is a listing service to help individuals locate charity raffles. Charity raffles are a great way for a charity to raise funds.",
+        "link": "https://rafflelover.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/jarheadconstruction.png",
+        "title": "Jarhead Construction",
+        "description": "Jarhead Construction Inc. is a family-owned and Veteran-operated Roofing Contractor. We provide roofing services to both homeowners and commercial property owners.",
+        "link": "https://jarheadconstruction.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
     }
 ]
