@@ -402,6 +402,7 @@ p {
     flex-direction: row;
     justify-content: flex-end;
     gap: 0.5em;
+    margin-top: 1em;
 }
 
 @media (max-width: 767px) {
@@ -440,7 +441,7 @@ p {
 #projects .owl-dots {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: -1em;
 }
 
 #projects .owl-dot {
@@ -453,7 +454,7 @@ p {
 }
 
 #projects .owl-dot.active {
-    background: var(--pink1);
+    background: var(--grey7);
 }
 
 @media (max-width: 1199px) {
