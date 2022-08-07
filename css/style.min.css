@@ -408,7 +408,6 @@ p {
 @media (max-width: 767px) {
     #projects .owl-nav {
         justify-content: center;
-        margin-top: 0em;
     }
 }
 
@@ -440,10 +439,6 @@ p {
 }
 
 @media (max-width: 1199px) {
-    #projectsSlider {
-        gap: 6vmax;
-    }
-
     #project>div>img {
         height: auto;
         min-height: 0px;
