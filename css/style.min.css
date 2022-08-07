@@ -404,6 +404,7 @@ p {
     justify-content: flex-end;
     gap: 0.5em;
 }
+
 @media (max-width: 767px) {
     #projects .owl-nav {
         justify-content: center;
@@ -437,6 +438,14 @@ p {
     transition: 400ms;
 }
 
+#projects .owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
 @media (max-width: 1199px) {
     #projectsSlider {
         gap: 6vmax;
