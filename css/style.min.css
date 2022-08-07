@@ -449,7 +449,7 @@ p {
     height: 15px;
     border-radius: 50%;
     display: inline-block;
-    background: var(--grey5);
+    background: var(--grey1);
     margin: 0 3px;
 }
 
