@@ -438,6 +438,11 @@ p {
     transition: 400ms;
 }
 
+#projects .owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
 #projects .owl-dot {
     width: 15px;
     height: 15px;
