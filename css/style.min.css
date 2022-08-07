@@ -441,6 +441,7 @@ p {
 #projects .owl-dots {
     display: flex;
     justify-content: center;
+    margin-top: 2em;
 }
 
 #projects .owl-dot {
