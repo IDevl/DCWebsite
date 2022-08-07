@@ -47,7 +47,7 @@ h2 {
     font-family: 'Roboto';
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.3;
 }
 
 @media (max-width: 525px) {
@@ -352,7 +352,6 @@ p {
 #project>div>img {
     height: 100%;
     max-height: 300px;
-    min-height: 300px;
     object-fit: fill;
     object-position: top;
     box-shadow: 0 4px 10px var(--grey2);
