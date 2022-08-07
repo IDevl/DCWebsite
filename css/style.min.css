@@ -403,6 +403,7 @@ p {
     justify-content: flex-end;
     gap: 0.5em;
     margin-top: 1em;
+    z-index: 1;
 }
 
 @media (max-width: 767px) {
