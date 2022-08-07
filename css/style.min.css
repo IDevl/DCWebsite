@@ -404,6 +404,11 @@ p {
     justify-content: flex-end;
     gap: 0.5em;
 }
+@media (max-width: 767px) {
+    #projects .owl-nav {
+        justify-content: center;
+    }
+}
 
 #projects .owl-nav>div {
     background-color: var(--white);
