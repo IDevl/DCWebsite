@@ -403,7 +403,6 @@ p {
     justify-content: flex-end;
     gap: 0.5em;
     margin-top: 1em;
-    z-index: 1;
 }
 
 @media (max-width: 767px) {
@@ -437,25 +436,6 @@ p {
     font-size: 0.9rem;
     font-weight: 900 !important;
     transition: 400ms;
-}
-
-#projects .owl-dots {
-    display: flex;
-    justify-content: center;
-    margin-top: -1em;
-}
-
-#projects .owl-dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    background: var(--grey2);
-    margin: 0 3px;
-}
-
-#projects .owl-dot.active {
-    background: var(--grey7);
 }
 
 @media (max-width: 1199px) {
