@@ -448,9 +448,14 @@ p {
     height: 15px;
     border-radius: 50%;
     display: inline-block;
-    background: #ccc;
+    background: var(--grey5);
     margin: 0 3px;
 }
+
+#projects .owl-dot.active {
+    background: var(--pink1);
+}
+
 @media (max-width: 1199px) {
     #projectsSlider {
         gap: 6vmax;
