@@ -31,7 +31,7 @@ body {
 h1 {
     color: var(--grey4);
     font-family: 'Roboto';
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -111,14 +111,12 @@ p {
 .nav-item {
     font-size: 1rem;
     font-weight: 500;
-    color: var(--black);
+    color: var(--grey1);
     letter-spacing: 0.375em;
     cursor: pointer;
-    transition: 100ms;
 }
 
 .nav-item:hover {
-    font-weight: 700;
     color: var(--black);
     text-decoration: none;
 }
