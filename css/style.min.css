@@ -524,6 +524,13 @@ p {
     transition: 300ms;
 }
 
+
+/*FEATHERLIGHT*/
+.featherlight .featherlight-content {
+    background: none !important;
+}
+
+
 /*HIDE ELEMENT ON MOBILE OR DESKTOP VIEW*/
 @media (min-width: 1199px) {
     .only-mobile {
