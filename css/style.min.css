@@ -343,11 +343,11 @@ p {
     row-gap: 0.5em;
 }
 
-#project>div {
+#project>div, #certificate>div {
     padding: 12px !important;
 }
 
-#project>div>img {
+#project>div>img, #certificate>div>img {
     height: 100%;
     max-height: 300px;
     object-fit: fill;
