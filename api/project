@@ -50,6 +50,18 @@
         ]
     },
     {
+        "image": "img/projects/enimal.png",
+        "title": "Enimal World Wild",
+        "description": "Enimal is an independent lifestyle brand/apparel rooted in experience, music, sports, and design. #Enimal #WorldWild",
+        "link": "https://enimal.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/dormus.png",
         "title": "Dormus Dormitory",
         "description": "Located along España Boulevard with very high student foot traffic, these commercial units have prime location, visibility and accesibility.",
