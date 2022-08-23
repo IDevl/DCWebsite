@@ -456,6 +456,10 @@ p {
     background: none !important;
 }
 
+.featherlight-close {
+    display: none;
+}
+
 /*CONTACT*/
 .contact-card {
     background-color: var(--pink2);
