@@ -353,6 +353,7 @@ p {
     object-fit: fill;
     object-position: top;
     box-shadow: 0 4px 10px var(--grey2);
+    cursor: pointer;
 }
 
 #projectLinkBackdrop {
@@ -448,6 +449,12 @@ p {
     }
 }
 
+/*CERTIFICATES*/
+
+.featherlight .featherlight-content {
+    background: none !important;
+}
+
 /*CONTACT*/
 .contact-card {
     background-color: var(--pink2);
@@ -524,11 +531,6 @@ p {
     transition: 300ms;
 }
 
-
-/*FEATHERLIGHT*/
-.featherlight .featherlight-content {
-    background: none !important;
-}
 
 
 /*HIDE ELEMENT ON MOBILE OR DESKTOP VIEW*/
