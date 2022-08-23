@@ -393,7 +393,7 @@ p {
     color: var(--grey1);
 }
 
-#projects .owl-nav {
+#projects .owl-nav, #certificates .owl-nav  {
     bottom: 0;
     right: 0;
     display: flex;
@@ -404,12 +404,12 @@ p {
 }
 
 @media (max-width: 767px) {
-    #projects .owl-nav {
+    #projects .owl-nav, #certificates .owl-nav {
         justify-content: center;
     }
 }
 
-#projects .owl-nav>div {
+#projects .owl-nav>div, #certificates .owl-nav>div {
     background-color: var(--white);
     border: 0.5px solid var(--grey2);
     width: 35px;
@@ -421,15 +421,15 @@ p {
     transition: 400ms;
 }
 
-#projects .owl-nav>div:hover {
+#projects .owl-nav>div:hover, #certificates .owl-nav>div:hover {
     background-color: var(--grey2);
 }
 
-#projects .owl-nav>div:hover .lnr {
+#projects .owl-nav>div:hover .lnr, #certificates .owl-nav>div:hover .lnr {
     color: var(--white);
 }
 
-#projects .owl-nav>div>.lnr {
+#projects .owl-nav>div>.lnr, #certificates .owl-nav>div>.lnr  {
     color: var(--grey2);
     font-size: 0.9rem;
     font-weight: 900 !important;
@@ -443,7 +443,7 @@ p {
         max-height: 40vmax;
     }
 
-    #projects .owl-nav {
+    #projects .owl-nav, #certificates .owl-nav {
         width: 100%;
     }
 }
