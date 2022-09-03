@@ -25,6 +25,17 @@
         ]
     },
     {
+        "image": "img/projects/landmark.png",
+        "title": "Landmark PH",
+        "description": "Landmark is a department store and supermarket run by Citysuper Incorporated, the holding company of the Landmark Corporation, owned by Enrique Cheng.",
+        "link": "https://www.landmark.ph",
+        "skills": [
+            "Barapido",
+            "StoreHippo",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/jgcoffeeandbean.png",
         "title": "JG Coffee and Bean",
         "description": "A start-up cafe bar managed by only two students. Located near the city, escape the urban rush by visiting our coffee shop.",
