@@ -31,20 +31,10 @@ body {
 h1 {
     color: var(--grey4);
     font-family: 'Roboto';
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.01em;
-}
-
-#home h1 {
-    font-size: 4rem;
-}
-
-@media (max-width: 525px) {
-    #home h1 {
-        font-size: 12vw;
-    }
 }
 
 h2 {
