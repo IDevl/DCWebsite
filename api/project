@@ -70,6 +70,30 @@
         ]
     },
     {
+        "image": "img/projects/integrammarketing.png",
+        "title": "Integral Marketing",
+        "description": "Integral Marketing was founded in 2017 with the core belief that growing a business is easy if you have the right tools for the job.",
+        "link": "https://integralmrktg.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/p3life.png",
+        "title": "The P3 Life™",
+        "description": "The P3 Life™ is a private coaching practice and executive consulting firm that partners with a network of corporations to bring professional development.",
+        "link": "https://thep3life.company",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/sunsetflip.png",
         "title": "Sunset Flip Studio",
         "description": "Sunset Flip Studio offers Photo & Video services on any events. Based in Las Pinas City, Philippines.",
@@ -181,30 +205,6 @@
         "title": "12 Academy Street",
         "description": "12 Academy Street offers apartments for students. Completely renovated in 2019, the house is divided into two units with a 12-month lease.",
         "link": "https://12academystreet.com",
-        "skills": [
-            "Wordpress",
-            "Themeco",
-            "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/integrammarketing.png",
-        "title": "Integral Marketing",
-        "description": "Integral Marketing was founded in 2017 with the core belief that growing a business is easy if you have the right tools for the job.",
-        "link": "https://integralmrktg.com",
-        "skills": [
-            "Wordpress",
-            "Themeco",
-            "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/p3life.png",
-        "title": "The P3 Life™",
-        "description": "The P3 Life™ is a private coaching practice and executive consulting firm that partners with a network of corporations to bring professional development.",
-        "link": "https://thep3life.company",
         "skills": [
             "Wordpress",
             "Themeco",
