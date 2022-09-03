@@ -36,16 +36,61 @@
         ]
     },
     {
-        "image": "img/projects/jgcoffeeandbean.png",
-        "title": "JG Coffee and Bean",
-        "description": "A start-up cafe bar managed by only two students. Located near the city, escape the urban rush by visiting our coffee shop.",
-        "link": "https://jgcafe.netlify.app",
+        "image": "img/projects/coralsandpebbles.png",
+        "title": "Corals & Pebbles",
+        "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
+        "link": "https://coralsandpebbles.com",
         "skills": [
-            "Bootstrap",
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Netlify"
+            "Shopify",
+            "Dawn",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/ecolour.png",
+        "title": "Ecolour",
+        "description": "Ecolour is a 100% Australian owned company with unique products from over 20 years of research and development.",
+        "link": "https://ecolour.com.au",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/puritanspride.png",
+        "title": "Puritan's Pride",
+        "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
+        "link": "https://puritanspride.ph/",
+        "skills": [
+            "Shopify",
+            "Dawn",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/sunsetflip.png",
+        "title": "Sunset Flip Studio",
+        "description": "Sunset Flip Studio offers Photo & Video services on any events. Based in Las Pinas City, Philippines.",
+        "link": "https://sunsetflip.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/suresolutions.png",
+        "title": "SureSolutions",
+        "description": "SureSolutions is an Integrated Pest Management Solutions (IPMS) company composed of technically proficient professionals. Based in Las Pinas City, Philippines.",
+        "link": "https://suresolutions.com.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
         ]
     },
     {
@@ -85,10 +130,57 @@
         ]
     },
     {
+        "image": "img/projects/aquatheo.png",
+        "title": "Aqua Theo",
+        "description": "Aqua Theo Water Specialist is helping a lot of families and business establishments today to experience convenience in getting quality pure drinking water in the comforts of their home and businesses.",
+        "link": "https://aquatheowater.com",
+        "skills": [
+            "Shopify",
+            "Dawn",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/abbarchitects.png",
         "title": "ABB Architectural Services",
         "description": "ABB ArchitecturalS is a project management firm that is engaged in the practice of Green and Sustainable Design.",
         "link": "https://abb-architects.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/rosetelehealth.png",
+        "title": "ROSe Telehealth",
+        "description": "ROSe is a TeleHealth Service developed in British Columbia by physicians for clinicians.",
+        "link": "https://rosetelehealth.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/1espanacovidcare.png",
+        "title": "One España Covid Care",
+        "description": "1ECCP is a private isolation program recommended for individuals with positive COVID-19 who need close monitoring.",
+        "link": "https://1espanacovidcare.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/12academystreet.png",
+        "title": "12 Academy Street",
+        "description": "12 Academy Street offers apartments for students. Completely renovated in 2019, the house is divided into two units with a 12-month lease.",
+        "link": "https://12academystreet.com",
         "skills": [
             "Wordpress",
             "Themeco",
@@ -141,17 +233,6 @@
             "Wordpress",
             "Themeco",
             "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/puritanspride.png",
-        "title": "Puritan's Pride",
-        "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
-        "link": "https://puritanspride.ph/",
-        "skills": [
-            "Shopify",
-            "Dawn",
             "Figma"
         ]
     },
@@ -225,6 +306,19 @@
             "Themeco",
             "Inmotion",
             "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/jgcoffeeandbean.png",
+        "title": "JG Coffee and Bean",
+        "description": "A start-up cafe bar managed by only two students. Located near the city, escape the urban rush by visiting our coffee shop.",
+        "link": "https://jgcafe.netlify.app",
+        "skills": [
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Netlify"
         ]
     }
 ]
