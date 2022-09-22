@@ -36,6 +36,18 @@
         ]
     },
     {
+        "image": "img/projects/fiestaextravaganza.png",
+        "title": "Fiesta Extravaganza",
+        "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
+        "link": "https://fiestaextravaganza.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/coralsandpebbles.png",
         "title": "Corals & Pebbles",
         "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
@@ -110,18 +122,6 @@
         "title": "SureSolutions",
         "description": "SureSolutions is an Integrated Pest Management Solutions (IPMS) company composed of technically proficient professionals. Based in Las Pinas City, Philippines.",
         "link": "https://suresolutions.com.ph",
-        "skills": [
-            "Wordpress",
-            "Themeco",
-            "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/fiestaextravaganza.png",
-        "title": "Fiesta Extravaganza",
-        "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
-        "link": "https://fiestaextravaganza.com",
         "skills": [
             "Wordpress",
             "Themeco",
