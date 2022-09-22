@@ -48,6 +48,18 @@
         ]
     },
     {
+        "image": "img/projects/enimal.png",
+        "title": "Enimal World Wild",
+        "description": "Enimal is an independent lifestyle brand/apparel rooted in experience, music, sports, and design. #Enimal #WorldWild",
+        "link": "https://enimal.ph",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/coralsandpebbles.png",
         "title": "Corals & Pebbles",
         "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
@@ -55,6 +67,17 @@
         "skills": [
             "Shopify",
             "Brooklyn",
+            "Figma"
+        ]
+    },
+    {
+        "image": "img/projects/puritanspride.png",
+        "title": "Puritan's Pride",
+        "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
+        "link": "https://puritanspride.ph/",
+        "skills": [
+            "Shopify",
+            "Dawn",
             "Figma"
         ]
     },
@@ -67,17 +90,6 @@
             "Wordpress",
             "Themeco",
             "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/puritanspride.png",
-        "title": "Puritan's Pride",
-        "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
-        "link": "https://puritanspride.ph/",
-        "skills": [
-            "Shopify",
-            "Dawn",
             "Figma"
         ]
     },
@@ -122,18 +134,6 @@
         "title": "SureSolutions",
         "description": "SureSolutions is an Integrated Pest Management Solutions (IPMS) company composed of technically proficient professionals. Based in Las Pinas City, Philippines.",
         "link": "https://suresolutions.com.ph",
-        "skills": [
-            "Wordpress",
-            "Themeco",
-            "Inmotion",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/enimal.png",
-        "title": "Enimal World Wild",
-        "description": "Enimal is an independent lifestyle brand/apparel rooted in experience, music, sports, and design. #Enimal #WorldWild",
-        "link": "https://enimal.ph",
         "skills": [
             "Wordpress",
             "Themeco",
