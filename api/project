@@ -60,6 +60,19 @@
         ]
     },
     {
+        "image": "img/projects/cddg.png",
+        "title": "Central District Design Group",
+        "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
+        "link": "https://abustangroup.com",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma",
+            "SwiperJS"
+        ]
+    },
+    {
         "image": "img/projects/coralsandpebbles.png",
         "title": "Corals & Pebbles",
         "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
