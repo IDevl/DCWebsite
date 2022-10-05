@@ -25,19 +25,6 @@
         ]
     },
     {
-        "image": "img/projects/cgitechexam.png",
-        "title": "Technical Exam (CGI Application)",
-        "description": "A simple web application developed within two days of timeframe using react.js, node.js, Express, and MongoDB frameworks.",
-        "link": "https://cgi-tech-jeffersondc.herokuapp.com/",
-        "skills": [
-            "ReactJS",
-            "NodeJS",
-            "Express",
-            "MongoDB",
-            "MantineUI"
-        ]
-    },
-    {
         "image": "img/projects/exceed.png",
         "title": "Exceed Digital Solutions",
         "description": "Exceed Digital Solutions provides web development, digital marketing, and multimedia services that aim to boost your business.",
@@ -345,6 +332,19 @@
             "CSS",
             "Javascript",
             "Netlify"
+        ]
+    },
+    {
+        "image": "img/projects/cgitechexam.png",
+        "title": "Technical Exam (CGI Application)",
+        "description": "A simple web application developed within two days of timeframe using react.js, node.js, Express, and MongoDB frameworks.",
+        "link": "https://cgi-tech-jeffersondc.herokuapp.com/",
+        "skills": [
+            "ReactJS",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "MantineUI"
         ]
     }
 ]
