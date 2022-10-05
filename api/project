@@ -13,10 +13,10 @@
         ]
     },
     {
-        "image": "img/projects/exceed.png",
-        "title": "Exceed Digital Solutions",
-        "description": "Exceed Digital Solutions provides web development, digital marketing, and multimedia services that aim to boost your business.",
-        "link": "https://exceed.agency",
+        "image": "img/projects/fiestaextravaganza.png",
+        "title": "Fiesta Extravaganza",
+        "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
+        "link": "https://fiestaextravaganza.com",
         "skills": [
             "Wordpress",
             "Themeco",
@@ -38,6 +38,18 @@
         ]
     },
     {
+        "image": "img/projects/exceed.png",
+        "title": "Exceed Digital Solutions",
+        "description": "Exceed Digital Solutions provides web development, digital marketing, and multimedia services that aim to boost your business.",
+        "link": "https://exceed.agency",
+        "skills": [
+            "Wordpress",
+            "Themeco",
+            "Inmotion",
+            "Figma"
+        ]
+    },
+    {
         "image": "img/projects/landmark.png",
         "title": "Landmark PH",
         "description": "Landmark is a department store and supermarket run by Citysuper Incorporated, the holding company of the Landmark Corporation, owned by Enrique Cheng.",
@@ -45,18 +57,6 @@
         "skills": [
             "Barapido",
             "StoreHippo",
-            "Figma"
-        ]
-    },
-    {
-        "image": "img/projects/fiestaextravaganza.png",
-        "title": "Fiesta Extravaganza",
-        "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
-        "link": "https://fiestaextravaganza.com",
-        "skills": [
-            "Wordpress",
-            "Themeco",
-            "Inmotion",
             "Figma"
         ]
     },
