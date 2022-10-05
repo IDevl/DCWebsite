@@ -25,6 +25,19 @@
         ]
     },
     {
+        "image": "img/projects/cgitechexam.png",
+        "title": "Technical Exam (CGI Application)",
+        "description": "A simple web application developed within two days of timeframe using react.js, node.js, Express, and MongoDB frameworks.",
+        "link": "https://cgi-tech-jeffersondc.herokuapp.com/",
+        "skills": [
+            "ReactJS",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "MantineUI"
+        ]
+    },
+    {
         "image": "img/projects/landmark.png",
         "title": "Landmark PH",
         "description": "Landmark is a department store and supermarket run by Citysuper Incorporated, the holding company of the Landmark Corporation, owned by Enrique Cheng.",
