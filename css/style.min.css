@@ -105,8 +105,9 @@ p {
 #headerMain {
     z-index: 4;
     top: 0;
-    transition: all 0.4s cubic-bezier(.165,.84,.44,1);
+    transition: all 0.4s cubic-bezier(.165, .84, .44, 1);
 }
+
 #header {
     height: 100px;
 }
@@ -119,9 +120,17 @@ p {
     cursor: pointer;
 }
 
-.nav-item:hover {
-    color: var(--black);
-    text-decoration: none;
+.nav-item:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px var(--pink1);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin:  0% 50%;
+}
+
+.nav-item:hover:after { 
+    transform: scaleX(1); 
 }
 
 .nav-item-active {
@@ -210,7 +219,7 @@ p {
 }
 
 /* Particle JS */
-#particles-js { 
+#particles-js {
     width: 32%;
     height: calc(100% - 3.5em);
     position: absolute;
@@ -227,7 +236,8 @@ p {
     #home-backdrop {
         bottom: 2.5em;
     }
-    #particles-js { 
+
+    #particles-js {
         height: calc(100% - 2.5em);
     }
 }
@@ -354,11 +364,13 @@ p {
     row-gap: 0.5em;
 }
 
-#project>div, #certificate>div {
+#project>div,
+#certificate>div {
     padding: 12px !important;
 }
 
-#project>div>img, #certificate>div>img {
+#project>div>img,
+#certificate>div>img {
     height: 100%;
     max-height: 300px;
     object-fit: fill;
@@ -405,7 +417,8 @@ p {
     color: var(--grey1);
 }
 
-#projects .owl-nav, #certificates .owl-nav  {
+#projects .owl-nav,
+#certificates .owl-nav {
     bottom: 0;
     right: 0;
     display: flex;
@@ -416,12 +429,15 @@ p {
 }
 
 @media (max-width: 767px) {
-    #projects .owl-nav, #certificates .owl-nav {
+
+    #projects .owl-nav,
+    #certificates .owl-nav {
         justify-content: center;
     }
 }
 
-#projects .owl-nav>div, #certificates .owl-nav>div {
+#projects .owl-nav>div,
+#certificates .owl-nav>div {
     background-color: var(--white);
     border: 0.5px solid var(--grey2);
     width: 35px;
@@ -433,15 +449,18 @@ p {
     transition: 400ms;
 }
 
-#projects .owl-nav>div:hover, #certificates .owl-nav>div:hover {
+#projects .owl-nav>div:hover,
+#certificates .owl-nav>div:hover {
     background-color: var(--grey2);
 }
 
-#projects .owl-nav>div:hover .lnr, #certificates .owl-nav>div:hover .lnr {
+#projects .owl-nav>div:hover .lnr,
+#certificates .owl-nav>div:hover .lnr {
     color: var(--white);
 }
 
-#projects .owl-nav>div>.lnr, #certificates .owl-nav>div>.lnr  {
+#projects .owl-nav>div>.lnr,
+#certificates .owl-nav>div>.lnr {
     color: var(--grey2);
     font-size: 0.9rem;
     font-weight: 900 !important;
@@ -455,7 +474,8 @@ p {
         max-height: 40vmax;
     }
 
-    #projects .owl-nav, #certificates .owl-nav {
+    #projects .owl-nav,
+    #certificates .owl-nav {
         width: 100%;
     }
 }
