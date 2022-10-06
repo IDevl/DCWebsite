@@ -302,6 +302,10 @@ p {
 }
 
 /*ABOUT*/
+#about {
+    scroll-margin-top: 100px;
+}
+
 .sub-date {
     color: var(--grey2);
     font-size: 1.125rem;
@@ -329,6 +333,10 @@ p {
 }
 
 /*PROJECTS*/
+#projects {
+    scroll-margin-top: 100px;
+}
+
 .skill {
     color: var(--grey3);
     background-color: var(--grey6);
@@ -453,6 +461,9 @@ p {
 }
 
 /*CERTIFICATES*/
+#certificates {
+    scroll-margin-top: 100px;
+}
 
 .featherlight .featherlight-content {
     background: none !important;
