@@ -474,6 +474,10 @@ p {
 }
 
 /*CONTACT*/
+#contact {
+    scroll-margin-top: 150px;
+}
+
 .contact-card {
     background-color: var(--pink2);
     padding: 2em;
