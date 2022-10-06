@@ -102,9 +102,13 @@ p {
 
 
 /* HEADER */
+#headerMain {
+    z-index: 4;
+    top: 0;
+    transition: all 0.4s cubic-bezier(.165,.84,.44,1);
+}
 #header {
     height: 100px;
-    z-index: 4;
 }
 
 .nav-item {

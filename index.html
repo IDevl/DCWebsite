@@ -45,55 +45,57 @@
 
 <body>
     <!-- HEADER -->
-    <div id="header" class="container d-flex align-items-center justify-content-end">
+    <div id="headerMain">
+        <div id="header" class="container d-flex align-items-center justify-content-end">
 
-        <!-- Nav Desktop -->
-        <nav class="d-flex row h-100 d-flex align-items-center only-desktop" style="z-index: 1;">
-            <ul class="col d-flex justify-content-end list-unstyled m-0">
-                <li class="mx-3">
-                    <a id="aboutNav" class="nav-item" onclick="About()">ABOUT</a>
-                </li>
-                <li class="mx-3">
-                    <a id="projectsNav" class="nav-item" onclick="Projects()">PROJECTS</a>
-                </li>
-                <li class="mx-3">
-                    <a id="certificatesNav" class="nav-item" onclick="Certificates()">CERTIFICATES</a>
-                </li>
-                <li class="ml-3">
-                    <a id="contactNav" class="nav-item" onclick="Contact()">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
+            <!-- Nav Desktop -->
+            <nav class="d-flex row h-100 d-flex align-items-center only-desktop" style="z-index: 1;">
+                <ul class="col d-flex justify-content-end list-unstyled m-0">
+                    <li class="mx-3">
+                        <a id="aboutNav" class="nav-item" onclick="About()">ABOUT</a>
+                    </li>
+                    <li class="mx-3">
+                        <a id="projectsNav" class="nav-item" onclick="Projects()">PROJECTS</a>
+                    </li>
+                    <li class="mx-3">
+                        <a id="certificatesNav" class="nav-item" onclick="Certificates()">CERTIFICATES</a>
+                    </li>
+                    <li class="ml-3">
+                        <a id="contactNav" class="nav-item" onclick="Contact()">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <!-- Nav Mobile -->
-        <a class="navbar-toggler white only-mobile" id="navbarToggler" style="z-index: 1;" data-toggle="collapse"
-            data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false"
-            aria-label="Toggle navigation" onclick="BodyScrollOff()">
-            <span class="lnr lnr-menu"></span>
-        </a>
+            <!-- Nav Mobile -->
+            <a class="navbar-toggler white only-mobile" id="navbarToggler" style="z-index: 1;" data-toggle="collapse"
+                data-target="#mobileNavContent" aria-controls="mobileNavContent" aria-expanded="false"
+                aria-label="Toggle navigation" onclick="BodyScrollOff()">
+                <span class="lnr lnr-menu"></span>
+            </a>
 
-        <nav class="collapse fixed-top" id="mobileNavContent">
-            <span id="mobileNavContentBackDrop" data-toggle="collapse" data-target="#mobileNavContent"
-                onclick="BodyScrollOn()"></span>
-            <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
-                <li class="my-3">
-                    <a id="aboutNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                        onclick="About()"> ABOUT </a>
-                </li>
-                <li class="my-3">
-                    <a id="projectsNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                        onclick="Projects()"> PROJECTS </a>
-                </li>
-                <li class="my-3">
-                    <a id="certificatesNavMobile" class="nav-item" data-toggle="collapse"
-                        data-target="#mobileNavContent" onclick="Certificates()"> CERTIFICATES </a>
-                </li>
-                <li class="my-3">
-                    <a id="contactNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
-                        onclick="Contact()"> CONTACT </a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="collapse fixed-top" id="mobileNavContent">
+                <span id="mobileNavContentBackDrop" data-toggle="collapse" data-target="#mobileNavContent"
+                    onclick="BodyScrollOn()"></span>
+                <ul class="d-flex flex-column list-unstyled m-0 p-5" tabindex="-1" aria-hidden="true">
+                    <li class="my-3">
+                        <a id="aboutNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                            onclick="About()"> ABOUT </a>
+                    </li>
+                    <li class="my-3">
+                        <a id="projectsNavMobile" class="nav-item" data-toggle="collapse"
+                            data-target="#mobileNavContent" onclick="Projects()"> PROJECTS </a>
+                    </li>
+                    <li class="my-3">
+                        <a id="certificatesNavMobile" class="nav-item" data-toggle="collapse"
+                            data-target="#mobileNavContent" onclick="Certificates()"> CERTIFICATES </a>
+                    </li>
+                    <li class="my-3">
+                        <a id="contactNavMobile" class="nav-item" data-toggle="collapse" data-target="#mobileNavContent"
+                            onclick="Contact()"> CONTACT </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <!-- HOME SECTION -->
