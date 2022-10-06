@@ -105,7 +105,7 @@ p {
 #headerMain {
     z-index: 4;
     top: 0;
-    transition: box-shadow 0.4s cubic-bezier(.165,.84,.44,1);
+    transition: all 0.4s cubic-bezier(.165,.84,.44,1);
 }
 #header {
     height: 100px;
