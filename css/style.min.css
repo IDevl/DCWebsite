@@ -308,7 +308,7 @@ a {
 
 .socmed-button:hover {
     background-color: var(--grey1);
-    color: var(--white);
+    color: var(--white) !important;
     text-decoration: none;
 }
 
