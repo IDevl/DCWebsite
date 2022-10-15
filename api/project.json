@@ -1,6 +1,6 @@
 [
     {
-        "image": "/img/projects/gosukid.png",
+        "image": "./img/projects/gosukid.png",
         "title": "Gosu Kid",
         "description": "Gosu Kid is an educational android mobile game application that will help the Grade Three students to improve their skills and motivation in learning.",
         "link": "https://gosukid.netlify.app",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "image": "/img/projects/fiestaextravaganza.png",
+        "image": "./img/projects/fiestaextravaganza.png",
         "title": "Fiesta Extravaganza",
         "description": "Fiesta Extravaganza is a celebration of Filipino Heritage and Culture in Ontario and across Canada that promotes multicultural appreciation of Philippine heritage.",
         "link": "https://fiestaextravaganza.com",
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "image": "/img/projects/exceed.png",
+        "image": "./img/projects/exceed.png",
         "title": "Exceed Digital Solutions",
         "description": "Exceed Digital Solutions provides web development, digital marketing, and multimedia services that aim to boost your business.",
         "link": "https://exceed.agency",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "image": "/img/projects/landmark.png",
+        "image": "./img/projects/landmark.png",
         "title": "Landmark PH",
         "description": "Landmark is a department store and supermarket run by Citysuper Incorporated, the holding company of the Landmark Corporation, owned by Enrique Cheng.",
         "link": "https://www.landmark.ph",
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "image": "/img/projects/enimal.png",
+        "image": "./img/projects/enimal.png",
         "title": "Enimal World Wild",
         "description": "Enimal is an independent lifestyle brand/apparel rooted in experience, music, sports, and design. #Enimal #WorldWild",
         "link": "https://enimal.ph",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "image": "/img/projects/cddg.png",
+        "image": "./img/projects/cddg.png",
         "title": "Central District Design Group",
         "description": "Central District Design Group is an Award-Winning Architecture firm driven by the love and passion of arts and aesthetics. Established in Antipolo City, Rizal, Philippines.",
         "link": "https://abustangroup.com",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "image": "/img/projects/coralsandpebbles.png",
+        "image": "./img/projects/coralsandpebbles.png",
         "title": "Corals & Pebbles",
         "description": "Corals and Pebbles sleepwear are aesthetically handmade using premium 100% natural cotton fabric, quality materials, and fine detailing done by our skillful artisans.",
         "link": "https://coralsandpebbles.com",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "image": "/img/projects/puritanspride.png",
+        "image": "./img/projects/puritanspride.png",
         "title": "Puritan's Pride",
         "description": "Puritan's Pride has the best prices on vitamins and supplements from top brands. Healthy Choices for Healthy Living.",
         "link": "https://puritanspride.ph/",
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "image": "/img/projects/ecolour.png",
+        "image": "./img/projects/ecolour.png",
         "title": "Ecolour",
         "description": "Ecolour is a 100% Australian owned company with unique products from over 20 years of research and development.",
         "link": "https://ecolour.com.au",
@@ -107,7 +107,7 @@
         ]
     },
     {
-        "image": "/img/projects/integrammarketing.png",
+        "image": "./img/projects/integrammarketing.png",
         "title": "Integral Marketing",
         "description": "Integral Marketing was founded in 2017 with the core belief that growing a business is easy if you have the right tools for the job.",
         "link": "https://integralmrktg.com",
@@ -119,7 +119,7 @@
         ]
     },
     {
-        "image": "/img/projects/p3life.png",
+        "image": "./img/projects/p3life.png",
         "title": "The P3 Life™",
         "description": "The P3 Life™ is a private coaching practice and executive consulting firm that partners with a network of corporations to bring professional development.",
         "link": "https://thep3life.company",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "image": "/img/projects/sunsetflip.png",
+        "image": "./img/projects/sunsetflip.png",
         "title": "Sunset Flip Studio",
         "description": "Sunset Flip Studio offers Photo & Video services on any events. Based in Las Pinas City, Philippines.",
         "link": "https://sunsetflip.ph",
@@ -143,7 +143,7 @@
         ]
     },
     {
-        "image": "/img/projects/suresolutions.png",
+        "image": "./img/projects/suresolutions.png",
         "title": "SureSolutions",
         "description": "SureSolutions is an Integrated Pest Management Solutions (IPMS) company composed of technically proficient professionals. Based in Las Pinas City, Philippines.",
         "link": "https://suresolutions.com.ph",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "image": "/img/projects/dormus.png",
+        "image": "./img/projects/dormus.png",
         "title": "Dormus Dormitory",
         "description": "Located along España Boulevard with very high student foot traffic, these commercial units have prime location, visibility and accesibility.",
         "link": "https://dormus.ph",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "image": "/img/projects/aquatheo.png",
+        "image": "./img/projects/aquatheo.png",
         "title": "Aqua Theo",
         "description": "Aqua Theo Water Specialist is helping a lot of families and business establishments today to experience convenience in getting quality pure drinking water in the comforts of their home and businesses.",
         "link": "https://aquatheowater.com",
@@ -178,7 +178,7 @@
         ]
     },
     {
-        "image": "/img/projects/abbarchitects.png",
+        "image": "./img/projects/abbarchitects.png",
         "title": "ABB Architectural Services",
         "description": "ABB ArchitecturalS is a project management firm that is engaged in the practice of Green and Sustainable Design.",
         "link": "https://abb-architects.com",
@@ -190,7 +190,7 @@
         ]
     },
     {
-        "image": "/img/projects/rosetelehealth.png",
+        "image": "./img/projects/rosetelehealth.png",
         "title": "ROSe Telehealth",
         "description": "ROSe is a TeleHealth Service developed in British Columbia by physicians for clinicians.",
         "link": "https://rosetelehealth.com",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "image": "/img/projects/1espanacovidcare.png",
+        "image": "./img/projects/1espanacovidcare.png",
         "title": "One España Covid Care",
         "description": "1ECCP is a private isolation program recommended for individuals with positive COVID-19 who need close monitoring.",
         "link": "https://1espanacovidcare.ph",
@@ -214,7 +214,7 @@
         ]
     },
     {
-        "image": "/img/projects/12academystreet.png",
+        "image": "./img/projects/12academystreet.png",
         "title": "12 Academy Street",
         "description": "12 Academy Street offers apartments for students. Completely renovated in 2019, the house is divided into two units with a 12-month lease.",
         "link": "https://12academystreet.com",
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "image": "/img/projects/nourishflourish.png",
+        "image": "./img/projects/nourishflourish.png",
         "title": "Nourish Flourish",
         "description": "Nourish-Flourish (NF) is a community for women to learn, ask questions, and feel supported and empowered on their health and wellness journey.",
         "link": "https://fromnourishtoflourish.com",
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "image": "/img/projects/mcbnradio.png",
+        "image": "./img/projects/mcbnradio.png",
         "title": "MCBN Radio",
         "description": "Media Concept Broadcasting Network (MCBN) is a global digital media platform and broadcasting company based in Toronto, Canada.",
         "link": "https://mcbnradio.com",
@@ -250,7 +250,7 @@
         ]
     },
     {
-        "image": "/img/projects/mcbndigitalsolutions.png",
+        "image": "./img/projects/mcbndigitalsolutions.png",
         "title": "MCBN Digital Solutions",
         "description": "MCBN Digital Solutions incorporates the latest technologies to meet business challenges and enhance brand value.",
         "link": "https://mcbndigitalsolutions.com",
@@ -262,7 +262,7 @@
         ]
     },
     {
-        "image": "/img/projects/uniplace.png",
+        "image": "./img/projects/uniplace.png",
         "title": "UniPlace Dormitory",
         "description": "An extraordinary dormitory development in Cebu, located at the heart of Southwestern University Campus (SWU-Phinma).",
         "link": "https://uniplace.ph",
@@ -274,7 +274,7 @@
         ]
     },
     {
-        "image": "/img/projects/joaneglass.png",
+        "image": "./img/projects/joaneglass.png",
         "title": "Joane Glass",
         "description": "Joane Glass provides quality goods from very supportive suppliers to gain client satisfaction and meet the demands of contractors.",
         "link": "https://joaneglass.ph",
@@ -286,7 +286,7 @@
         ]
     },
     {
-        "image": "/img/projects/deesenailsdriplash.png",
+        "image": "./img/projects/deesenailsdriplash.png",
         "title": "Déesse",
         "description": "Déesse is a boutique beauty and wellness space in Metro Manila that offers a wide array of men and women specific self-care services.",
         "link": "https://deessenailsdriplash.ph",
@@ -298,7 +298,7 @@
         ]
     },
     {
-        "image": "/img/projects/rafflelover.png",
+        "image": "./img/projects/rafflelover.png",
         "title": "Raffle Lover",
         "description": "Raffle Lover is a listing service to help individuals locate charity raffles. Charity raffles are a great way for a charity to raise funds.",
         "link": "https://rafflelover.com",
@@ -310,7 +310,7 @@
         ]
     },
     {
-        "image": "/img/projects/jarheadconstruction.png",
+        "image": "./img/projects/jarheadconstruction.png",
         "title": "Jarhead Construction",
         "description": "Jarhead Construction is a Veteran-operated roofing contractor that provides roofing services to home and commercial property owners.",
         "link": "https://jarheadconstruction.com",
@@ -322,7 +322,7 @@
         ]
     },
     {
-        "image": "/img/projects/jgcoffeeandbean.png",
+        "image": "./img/projects/jgcoffeeandbean.png",
         "title": "JG Coffee and Bean",
         "description": "A start-up cafe bar managed by only two students. Located near the city, escape the urban rush by visiting our coffee shop.",
         "link": "https://jgcafe.netlify.app",
@@ -335,7 +335,7 @@
         ]
     },
     {
-        "image": "/img/projects/cgitechexam.png",
+        "image": "./img/projects/cgitechexam.png",
         "title": "Technical Exam (CGI Application)",
         "description": "A simple web application developed within two days of timeframe using react.js, node.js, Express, and MongoDB frameworks.",
         "link": "https://cgi-tech-jeffersondc.herokuapp.com/",
